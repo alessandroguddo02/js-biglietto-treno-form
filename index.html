@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container p-3">
+        <div class="text-center mt-4">
+            <p>calcola il prezzo del tuo biglietto</p>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <label for="name">nome e cognome</label>
+                <input type="text" class="form-control" aria-label="name" id="name">
+            </div>
+            <div class="col">
+                <label for="km">km da percorrere</label>
+                <input type="number" class="form-control" aria-label="km" id="km">
+            </div>
+            <div class="col">
+                <label for="age">età</label>
+                <input type="number" class="form-control" aria-label="age" id="age">
+            </div>
+
+            <div class="d-flex justify-content-center mt-2">
+                <button type="button" class="btn btn-success btn-sm" id="mybutton">genera</button>
+                <button type="button" class="btn btn-danger btn-sm" id="reset">annulla</button>
+            </div>
+
+            <div>
+                <p class="d-none" id="result"></p>
+                <p class="d-none" id="result2"></p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
